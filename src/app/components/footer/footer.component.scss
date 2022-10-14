@@ -1,0 +1,25 @@
+.footer{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding: 24px;
+	background-color: black;
+	color: white;
+	.tf{
+		width: 35%;
+		h1{
+			font-size: 18px;
+			padding: 8px;
+		}
+		p{
+			font-size: 14px;
+			padding: 8px;
+		}
+	}
+	.ten{
+		width: 10%;
+		p{
+			padding: 4px 0;
+		}
+	}
+}
