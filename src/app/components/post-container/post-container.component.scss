@@ -1,0 +1,10 @@
+.post-container{
+	display: flex;
+	flex-direction: row;
+	.post-content{
+		background-color: #9d9d9d;
+	}
+	.post-comments{
+		background-color: #937272;
+	}
+}
