@@ -1,9 +1,8 @@
 <nav>
 	<div class="icon"><img src="./../../../assets/Photos/crane.svg"></div>
 	<div class="routing">
-		<Button>HOME</Button>
-		<Button>PHOTOS</Button>
-		<Button>PROFILE</Button>
-		<Button>CONTACT</Button>
+		<Button [routerLink]="'/posts'">POSTS</Button>
+		<Button [routerLink]="'/photos'">PHOTOS</Button>
+		<Button [routerLink]="'/profile'">PROFILE</Button>
 	</div>
 </nav>
